@@ -45,7 +45,7 @@ import gdxforIconURL from './gdxfor/gdxfor.png';
 import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
-
+import gamepadIconURL from './gamepad/gamepad.png';
 export default [
     {
         name: (
@@ -317,5 +317,16 @@ export default [
             />
         ),
         helpLink: 'https://scratch.mit.edu/vernier'
-    }
+    },
+    {
+        name: 'gamepad',
+        extensionId: 'gamepad',
+        collaborator: 'Eu',
+        iconURL: gamepadIconURL,
+        description: "Description for the 'Gamepad' extension",
+        featured: true,
+        disabled: false,
+        internetConnectionRequired: false,
+        bluetoothRequired: true
+    },
 ];
